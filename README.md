@@ -1,4 +1,15 @@
-# Franco's script after Fedora Install
+# Franco's Script After Fedora Install
+
+## Usage
+```
+sudo dnf install -y git # kinda obvious huh
+git clone https://github.com/franco23034565/franco_fedora_script.git
+cd franco_fedora_script
+chmod +x fedora_script.sh
+chmod +x fedora_script_nosudo.sh
+sudo ./fedora_script.sh
+./fedora_script_nosudo.sh
+```
 
 ## Description
 This script is for Fedora 37 and above. It installs some packages and configures some things.
@@ -13,7 +24,8 @@ Including the following:
 
 **this script will not setup timeshift, if you wanna use timeshift properly, i recommend you to [configure it yourself](https://discussion.fedoraproject.org/t/a-quick-guide-to-setting-up-btrfs-timeshift-on-fedora-33/27573)**
 
-## Native Packages(including rpmfusion)
+## Packages Script Installs
+### Native Packages(including rpmfusion)
 - vim
 - htop
 - neofetch
@@ -23,14 +35,13 @@ Including the following:
 - vlc
 - fish
 - ffmpeg
-- git
 - timeshift
 - steam
 - code
 - firewall-config
 - gnome-tweaks
 
-## Flatpak Packages
+### Flatpak Packages
 - protonup-qt
 - discord
 - android-studio
@@ -44,13 +55,3 @@ Including the following:
 - krita
 - bottles
 - extension manager
-
-## Usage
-```
-git clone https://github.com/franco23034565/franco_fedora_script.git
-cd franco_fedora_script
-chmod +x fedora_script.sh
-chmod +x fedora_script_nosudo.sh
-sudo ./fedora_script.sh
-./fedora_script_nosudo.sh
-```
