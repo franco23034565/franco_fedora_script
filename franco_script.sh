@@ -22,7 +22,7 @@ sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.micros
 dnf upgrade  --refresh
 
 # install some software
-dnf install  vim htop neofetch @virtualization virt-manager mpv vlc fish ffmpeg git timeshift steam code
+dnf install  vim htop neofetch @virtualization virt-manager mpv vlc fish ffmpeg timeshift steam code firewall-config gnome-tweaks
 systemctl start libvirtd
 systemctl enable libvirtd
 
