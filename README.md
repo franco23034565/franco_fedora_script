@@ -12,6 +12,8 @@ sudo ./fedora_script.sh
 ```
 
 ## Description
+**This two scripts are created only for personal use, if the script break your system(idk how but if that happened), I have no responsibility for that.**
+
 This script is for Fedora 37 and above. It installs some packages and configures some things.
 Including the following:
 - add fastestmirror=true and parallel downloads=10 to dnf config file
@@ -21,6 +23,8 @@ Including the following:
 - add multimedia codecs
 - change mesa-va-drivers to mesa-va-drivers-freeworld
 - add Posy Improved Cursors to ~/.icons
+
+
 
 **this script will not setup timeshift, if you wanna use timeshift properly, i recommend you to [configure it yourself](https://discussion.fedoraproject.org/t/a-quick-guide-to-setting-up-btrfs-timeshift-on-fedora-33/27573)**
 
